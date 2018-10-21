@@ -19,7 +19,8 @@ SHARED
 body {
   background-color: #131516;
   color: #f2f3f4;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+ Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 16px;
   font-weight: 500;
   height: 100%;
@@ -109,13 +110,19 @@ a:focus, a:hover {
   #mainNav {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
-    -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
-    -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
-    transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    -webkit-transition: background 0.3s ease-in-out,
+ padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    -webkit-transition: background 0.3s ease-in-out,
+ padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    -webkit-transition: background 0.3s ease-in-out,
+ padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out,
+ padding-bottom 0.3s;
     letter-spacing: 1px;
     border-bottom: none;
-    background: transparent;
+    background-color: transparent;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -129,6 +136,28 @@ a:focus, a:hover {
   }
   #mainNav .nav-link.active:hover {
     color: #f2f3f4;
+  }
+  #mainNav.navbar-shrink {
+    background-color: #fff;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #161616;
+  }
+  #mainNav.navbar-shrink .nav-link {
+    color: #161616;
+    padding: 1.5rem 1.5rem 1.25rem;
+    border-bottom: 0.25rem solid transparent;
+  }
+  #mainNav.navbar-shrink .nav-link:hover {
+    color: #64a19d;
+  }
+  #mainNav.navbar-shrink .nav-link:active {
+    color: #467370;
+  }
+  #mainNav.navbar-shrink .nav-link.active {
+    color: #64a19d;
+    outline: none;
+    border-bottom: 0.25rem solid #64a19d;
   }
 }
 
@@ -225,8 +254,11 @@ section#work .intro-body .intro-text {
   background-color: #c0ffee;
 }
 
-ul.banner-social-buttons {
-  margin-top: 0;
+.contact-section .card h4 {
+  font-size: 0.8rem;
+  font-family: 'Varela Round';
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
 }
 
 @media (max-width: 1199px) {
