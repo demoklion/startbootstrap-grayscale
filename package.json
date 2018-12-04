@@ -33,13 +33,13 @@
         "gulp-htmlmin": "^5.0.1",
         "jquery": "3.3.1",
         "jquery.easing": "^1.4.1",
-        "popper.js": "^1.14.5"
+        "popper.js": "^1.14.6"
     },
     "devDependencies": {
         "browser-sync": "^2.24.7",
         "gulp": "^3.9.1",
         "gulp-autoprefixer": "6.0.0",
-        "gulp-clean-css": "3.10.0",
+        "gulp-clean-css": "^4.0.0",
         "gulp-header": "2.0.5",
         "gulp-rename": "^1.4.0",
         "gulp-sass": "4.0.2",
