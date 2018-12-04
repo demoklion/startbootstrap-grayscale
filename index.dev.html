@@ -95,18 +95,12 @@
     format('svg');font-weight:normal;font-style:normal}.fas{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-rotate-90{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}:root
     .fa-rotate-90{filter:none}.fa-expand:before{content:"\f065"}.fa-bars:before{content:"\f0c9"}
 
-  </style> -->
 
     <!-- <link href="vendor/fontawesome-free/css/fontawesome.min.css" rel="stylesheet"> -->
     <!-- Temporary Shims -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/v4-shims.css">
   </noscript>
-
-
-
-
-  <!-- Navigation -->
   <nav id="mainNav" class="navbar navbar-expand-lg navbar-light fixed-top">
     <div class="container">
 
@@ -160,6 +154,12 @@
       <div class="row">
         <div class="col-lg-10 mx-auto">
           <h2>Let's talk design</h2>
+          <p class="text-left">
+            I'm always looking to expand my experience... in User Experience. Send a message, or ask me in person. You can meet me on UX–related events around Prague.
+          </p>
+          <p class="text-left">
+            Lately, I've been working on innovations as a UX Team of One. Now, I'm looking for an experienced team to join, to continue growing my knowledge.
+          </p>
 
           <ul class="list-inline banner-social-buttons">
             <li class="list-inline-item">
@@ -901,7 +901,7 @@
 
   <!--  SCRIPTS   -->
   <!-- Deferred Styles Script -->
-  <script>
+  <script defer>
     var loadDeferredStyles = function () {
       var addStylesNode = document.getElementById("deferred-styles");
       var replacement = document.createElement("div");
@@ -922,7 +922,7 @@
         this bit does it:
         <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="original.png"> -->
 
-  <script>
+  <script defer>
     function init() {
       var imgDefer = document.getElementsByTagName('img');
       for (var i = 0; i < imgDefer.length; i++) {
@@ -937,22 +937,22 @@
   </script>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script defer src="vendor/jquery/jquery.min.js"></script>
+  <script defer src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script defer src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
   <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false" async></script> -->
 
   <!-- Custom scripts for this template -->
-  <script src="js/grayscale.min.js"></script>
+  <script defer src="js/grayscale.min.js"></script>
 
   <!--  Clipboard.js  -->
-  <script src="js/clipboard.min.js"></script>
+  <script defer src="js/clipboard.min.js"></script>
   <!--  We initiate it and add tooltips from jQuery and Bootstrap-->
-  <script>
+  <script defer>
     function setTooltip(t, o) {
       $(t).tooltip("hide").attr("data-original-title", o).tooltip("show")
     }
