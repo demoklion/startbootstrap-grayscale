@@ -1,29 +1,15 @@
 {
-  "title": "Grayscale",
-  "name": "startbootstrap-grayscale",
-  "version": "4.1.1",
-  "description": "A grayscale one page HTML theme for Bootstrap.",
-  "keywords": [
-    "css",
-    "sass",
-    "html",
-    "responsive",
-    "theme",
-    "template"
-  ],
-  "homepage": "https://startbootstrap.com/template-overviews/grayscale",
-  "bugs": {
-    "url": "https://github.com/BlackrockDigital/startbootstrap-grayscale/issues",
-    "email": "feedback@startbootstrap.com"
-  },
+  "name": "jandu.top",
+  "version": "1.0.0",
+  "description": "UX Designer's portfolio",
+  "homepage": "https://github.com/demoklion/jandu",
   "license": "MIT",
-  "author": "Start Bootstrap",
-  "contributors": [
-    "David Miller (http://davidmiller.io/)"
-  ],
+  "author": {
+    "name": "Ján Dugovič"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-grayscale.git"
+    "url": "https://github.com/demoklion/jandu"
   },
   "dependencies": {
     "bootstrap": "^4.1.3",
